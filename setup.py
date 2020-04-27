@@ -9,12 +9,12 @@ setuptools.setup(
     url='https://github.com/zyguan/python-kvproto',
     packages=setuptools.find_packages(),
     keywords=['kvproto'],
-    classifiers=(
+    classifiers=[
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3 :: Only',
-    ),
+    ],
     install_requires=[
         'grpcio-tools==1.27.1',
         'googleapis-common-protos==1.51.0',
